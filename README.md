@@ -1,0 +1,1 @@
+# workspace-scanner.nvim
