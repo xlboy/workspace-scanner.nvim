@@ -88,7 +88,75 @@ return {
 ## How to use?
 > You can understand the relevant information through [my configuration](https://ray.so/#padding=16&theme=breeze&title=xlboy%2Fworkspace-scanner.lua&language=lua&background=true&code=cmV0dXJuIHsKICAieGxib3kvd29ya3NwYWNlLXNjYW5uZXIubnZpbSIsCiAgLS0tIEB0eXBlIFdTLkNvbmZpZwogIG9wdHMgPSB7CiAgICBzY2FubmVyID0gewogICAgICBzb3VyY2UgPSB7CiAgICAgICAgbnZpbSA9IHsKICAgICAgICAgIG15X2NvbmZpZyA9IHsgcF9kaXIgPSAiQzovVXNlcnMvQWRtaW5pc3RyYXRvci9BcHBEYXRhL0xvY2FsL252aW0iLCBfX2V4dHJhX18gPSB7IGxldmVsID0gMiB9IH0sCiAgICAgICAgICB3ZXp0ZXJtID0gIkM6L1VzZXJzL0FkbWluaXN0cmF0b3IvLmNvbmZpZy93ZXp0ZXJtIiwKICAgICAgICAgIGxhenkgPSB7IHdfZGlyID0gdmltLmZuLnN0ZHBhdGgoImRhdGEiKSAuLiAiL2xhenkiIH0sCiAgICAgICAgICB7IHdfZGlyID0gIkQ6L3Byb2plY3QvbnZpbSIgfSwKICAgICAgICAgIGRhdGEgPSB2aW0uZm4uc3RkcGF0aCgiZGF0YSIpLAogICAgICAgICAgX19leHRyYV9fID0geyBsZXZlbCA9IDEgfSwKICAgICAgICB9LAogICAgICAgIGNwcCA9IHsgd19kaXIgPSAiRDovcHJvamVjdC9jcHAiIH0sCiAgICAgICAgd2ViID0geyB3X2RpciA9ICJEOi9wcm9qZWN0L3dlYiIsIF9fZXh0cmFfXyA9IHsgbGV2ZWwgPSAyIH0gfSwKICAgICAgfSwKICAgIH0sCiAgICAtLS0gQHR5cGUgV1MuQ29uZmlnLlBpY2tlcgogICAgcGlja2VyID0gewogICAgICBldmVudHMgPSB7CiAgICAgICAgLS0tIEBwYXJhbSBlbnRyeSBXUy5QaWNrZXIuU2VsZWN0ZWRFbnRyeQogICAgICAgIG9uX3NlbGVjdCA9IGZ1bmN0aW9uKGVudHJ5KQogICAgICAgICAgLS0gcmVzZXNzaW9uLnNhdmVfY3dkKCkKICAgICAgICAgIC0tIHJlcXVpcmUoImNsb3NlX2J1ZmZlcnMiKS5kZWxldGUoeyB0eXBlID0gImFsbCIgfSkKICAgICAgICAgIC0tIHZpbS5jbWQoImNkICIgLi4gZW50cnkuc291cmNlLmRpcikKICAgICAgICAgIC0tIHJlc2Vzc2lvbi5sb2FkX2N3ZCgpCiAgICAgICAgZW5kLAogICAgICB9LAogICAgICB0cmVlX29wdHMgPSB7CiAgICAgICAgd29ya3NwYWNlID0gewogICAgICAgICAgaGlzdG9yeV9yZWNlbnQgPSB7CiAgICAgICAgICAgIGljb24gPSBmYWxzZSwKICAgICAgICAgIH0sCiAgICAgICAgfSwKICAgICAgICBrZXltYXBzID0gewogICAgICAgICAgYmFjayA9ICI8TGVmdD4iLAogICAgICAgICAgZm9yd2FyZCA9ICI8UmlnaHQ%2BIiwKICAgICAgICB9LAogICAgICB9LAogICAgfSwKICB9LAogIGtleXMgPSB7CiAgICB7ICI8bGVhZGVyPmZwbyIsICI8Y21kPmx1YSByZXF1aXJlKCd3b3Jrc3BhY2Utc2Nhbm5lcicpLnJlZnJlc2goKTxjcj4iLCBkZXNjID0gIlt3b3Jrc3BhY2Utc2Nhbm5lcl0gUmVmcmVzaCIgfSwKICAgIHsKICAgICAgIjxsZWFkZXI%2BZnByIiwKICAgICAgZnVuY3Rpb24oKQogICAgICAgIHJlcXVpcmUoIndvcmtzcGFjZS1zY2FubmVyIikuc2hvd19waWNrZXIoewogICAgICAgICAgc2hvd19oaXN0b3J5X29ubHkgPSB0cnVlLAogICAgICAgICAgdGVsZXNjb3BlID0gewogICAgICAgICAgICBvcHRzID0gewogICAgICAgICAgICAgIHByb21wdF90aXRsZSA9ICJSZWNlbnQgUHJvamVjdHMgKEZsYXQpIiwKICAgICAgICAgICAgICBsYXlvdXRfY29uZmlnID0geyB3aWR0aCA9IDkwLCBoZWlnaHQgPSAyNSB9LAogICAgICAgICAgICB9LAogICAgICAgICAgfSwKICAgICAgICAgIGhpc3RvcnkgPSB7CiAgICAgICAgICAgIHJlY2VudCA9IHsgaWNvbiA9IGZhbHNlIH0sCiAgICAgICAgICB9LAogICAgICAgIH0pCiAgICAgIGVuZCwKICAgICAgZGVzYyA9ICJbd29ya3NwYWNlLXNjYW5uZXJdIFNob3cgUmVjZW50IiwKICAgIH0sCiAgICB7CiAgICAgICI8bGVhZGVyPmZwYSIsCiAgICAgIGZ1bmN0aW9uKCkKICAgICAgICByZXF1aXJlKCJ3b3Jrc3BhY2Utc2Nhbm5lciIpLnNob3dfcGlja2VyKHsKICAgICAgICAgIG1vZGUgPSAidHJlZSIsCiAgICAgICAgICBzaG93X2hpc3Rvcnlfb25seSA9IGZhbHNlLAogICAgICAgICAgdGVsZXNjb3BlID0gewogICAgICAgICAgICBvcHRzID0gewogICAgICAgICAgICAgIHByb21wdF90aXRsZSA9ICJBbGwgUHJvamVjdHMgKFRyZWUpIiwKICAgICAgICAgICAgICBsYXlvdXRfY29uZmlnID0geyB3aWR0aCA9IDkwLCBoZWlnaHQgPSAyNSB9LAogICAgICAgICAgICB9LAogICAgICAgICAgfSwKICAgICAgICB9KQogICAgICBlbmQsCiAgICAgIGRlc2MgPSAiW3dvcmtzcGFjZS1zY2FubmVyXSBTaG93IFBpY2tlciIsCiAgICB9LAogIH0sCn0%3D&darkMode=true)
 
-... To be written
+1. Configure the Workspace Project
+
+```lua
+local source = {
+  web = { w_dir = "..." },
+  my_nvim_config = "...",
+}
+require("workspace-scanner").setup({
+  -- ...
+  scanner = { source = source },
+  -- ...
+})
+```
+
+2. Refresh Workspace Cache
+
+> The scanner will automatically cache the scanned workspace projects locally, so there is no need to scan every time at startup (if you scan every time at startup, it will take a lot of time)
+
+> In other words, if there are changes in the workspace projects in the future, you need to manually refresh the cache
+
+```lua
+require("workspace-sccraper").refresh()
+```
+
+3. Present the Picker According to Your Preferences
+
+```lua
+-- For specific parameter contents, please read [Configuration Introduction]
+require("workspace-scanner").show_picker({ ... })
+
+-- Personal use cases:
+-- 1. If you want to display all projects, use the Tree mode (this won't cause too many projects to be an issue, and can be progressive)
+require("workspace-scanner").show_picker({
+  mode = "tree",
+  telescope = {
+    opts = {
+      prompt_title = "All Projects (Tree)",
+    },
+  },
+})
+-- 2. If only the recent projects are displayed, use the Flat mode
+require("workspace-scanner").show_picker({
+  show_history_only = true,
+  telescope = {
+    opts = {
+      prompt_title = "Recent Projects (Flat)",
+    },
+  },
+})
+```
+
+4. Customize Picker Selection Callback
+
+```lua
+require("workspace-scanner").setup({
+  picker = {
+    events = {
+      --- @param entry WS.Picker.SelectedEntry
+      on_select = function(entry)
+        -- `entry.source.dir` is the path of the selected project
+        -- Now you can do what you want to do, for example: switch cwd to the path of the selected project
+        -- vim.cmd("cd " .. entry.source.dir)
+
+        -- or refresh the session, etc.
+      end,
+    },
+  },
+})
+```
 
 ## Configuration Introduction
 
